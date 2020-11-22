@@ -1,0 +1,108 @@
+.btn-matcha{
+    background-color:#025157;
+}
+.btn-matcha:hover{
+    background-color:#67b54b;
+}
+.btn-matcha,.btn-matcha:hover,.btn-matcha2,.btn-matcha2:hover{
+    color: white;
+}
+.btn-matcha2{
+    background-color:#67b54b;
+}
+nav a{
+    text-decoration: none;
+}
+a,h1,h5{
+    color:#025157 !important;
+}
+h1,h2{
+    font-family: serif;
+    font-weight: bolder !important;
+    color: #025157;
+}
+ul a:hover,.singIn:hover{
+    color:#025157;
+    border-bottom:2px solid #025157;
+} 
+.dropdown-menu a:hover,.dropdown-item a:hover{
+    border-bottom: 0 solid transparent;
+    color:#67b54b !important;
+    background-color: transparent;
+}
+.dropdwon-item-matcha{
+    color: #67b54b;
+}
+.dropdwon-item-matcha:hover{
+    background-color: transparent;
+    text-decoration: none;
+}
+.dropdown-right-matcha{
+    border-left: 2px solid #eaeaea;
+}
+.container-matcha1,.container-matcha5,.items-matcha,.details-card{
+    display: flex;
+}
+.container-matcha5{
+    flex-direction: row-reverse;
+}
+.jumbotron{
+    background-color: white;
+}
+/* .container-matcha4 .card{
+    height: 350px;
+} */
+.top-card{
+    cursor: pointer;
+}
+.top-card:hover{
+    color:#67b54b !important;
+}
+.topimage-card{
+    align-self: center;
+}
+.icons-matcha{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer li,footer h5{
+    margin-bottom: 10px;
+}
+.footer-links:hover{
+border-bottom: 0px solid transparent;
+}
+.footer-links a:hover,a:link{
+    text-decoration: none !important;
+}
+footer a:hover{
+color: #67b54b !important;
+}
+footer .copyright{
+    text-align: end;
+}
+ @media(max-width:900px){
+    .container-matcha1,.container-matcha5{
+        display: block;
+    }
+    .container-matcha1 .video{
+        width: 400px;
+        height: 400px;
+        margin: 0 !important;
+    }
+    .container-matcha5>div{
+        margin:20px auto !important;
+    }
+    .img-shopify{
+        display: block;
+    }
+    .copyright, .redesSociales,.img-shopify,.container-matcha1 button,.logo,.nav-footer{
+        text-align: center !important;
+    }
+    
+
+}
