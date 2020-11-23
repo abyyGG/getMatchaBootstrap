@@ -21,6 +21,10 @@ h1,h2{
     font-weight: bolder !important;
     color: #025157;
 }
+h4{
+    font-family: serif;
+    color:white;
+}
 ul a:hover,.singIn:hover{
     color:#025157;
     border-bottom:2px solid #025157;
@@ -84,6 +88,30 @@ color: #67b54b !important;
 }
 footer .copyright{
     text-align: end;
+}
+.container-matcha6 img{
+   width: 100%;
+   margin:20px;
+}
+
+.items-container{
+    background-color: #025157;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.container-matcha7 p{
+    color:white;
+}
+
+.container-matcha7 a{
+    color:#67b54b !important;
+}
+.container-matcha7 a:hover{
+    text-decoration: underline !important;
+}
+small{
+    color:#eaeaea;
 }
  @media(max-width:900px){
     .container-matcha1,.container-matcha5{
